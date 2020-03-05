@@ -65,7 +65,8 @@ window.__require = function e(t, n, r) {
         _role[_role.model.currentBehavior.Name]();
       },
       getBehavior: function getBehavior(_behaviorData) {
-        var randomNum = (0, _Tools.getRandomNum)(0, 99);
+        var maxPercent = _behaviorData[_behaviorData.length - 1].Percent - 1;
+        var randomNum = (0, _Tools.getRandomNum)(0, maxPercent);
         for (var i = 0; i < _behaviorData.length; i++) {
           var data = _behaviorData[i];
           var beforData = _behaviorData[i - 1];
