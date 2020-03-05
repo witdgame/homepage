@@ -704,7 +704,7 @@ window.__require = function e(t, n, r) {
     }();
     var _UnitState = require("../Config/UnitState");
     var _UnitState2 = _interopRequireDefault(_UnitState);
-    var _ActionData = require("AI/ActionData");
+    var _ActionData = require("../Config/ActionData");
     var _ActionData2 = _interopRequireDefault(_ActionData);
     function _interopRequireDefault(obj) {
       return obj && obj.__esModule ? obj : {
@@ -767,8 +767,8 @@ window.__require = function e(t, n, r) {
     module.exports = exports["default"];
     cc._RF.pop();
   }, {
-    "../Config/UnitState": "UnitState",
-    "AI/ActionData": void 0
+    "../Config/ActionData": "ActionData",
+    "../Config/UnitState": "UnitState"
   } ],
   UnitState: [ function(require, module, exports) {
     "use strict";
