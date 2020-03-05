@@ -702,7 +702,7 @@ window.__require = function e(t, n, r) {
         return Constructor;
       };
     }();
-    var _UnitState = require("config/UnitState");
+    var _UnitState = require("../Config/UnitState");
     var _UnitState2 = _interopRequireDefault(_UnitState);
     var _ActionData = require("AI/ActionData");
     var _ActionData2 = _interopRequireDefault(_ActionData);
@@ -767,8 +767,8 @@ window.__require = function e(t, n, r) {
     module.exports = exports["default"];
     cc._RF.pop();
   }, {
-    "AI/ActionData": void 0,
-    "config/UnitState": void 0
+    "../Config/UnitState": "UnitState",
+    "AI/ActionData": void 0
   } ],
   UnitState: [ function(require, module, exports) {
     "use strict";
