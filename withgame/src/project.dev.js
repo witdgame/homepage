@@ -515,7 +515,7 @@ window.__require = function e(t, n, r) {
     exports.dodge = dodge;
     exports.reset = reset;
     exports.tick = tick;
-    var _UnitState = require("config/UnitState");
+    var _UnitState = require("../Config/UnitState");
     var _UnitState2 = _interopRequireDefault(_UnitState);
     function _interopRequireDefault(obj) {
       return obj && obj.__esModule ? obj : {
@@ -676,7 +676,7 @@ window.__require = function e(t, n, r) {
     }
     cc._RF.pop();
   }, {
-    "config/UnitState": void 0
+    "../Config/UnitState": "UnitState"
   } ],
   UnitModel: [ function(require, module, exports) {
     "use strict";
