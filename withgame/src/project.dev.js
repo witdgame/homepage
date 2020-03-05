@@ -397,9 +397,9 @@ window.__require = function e(t, n, r) {
     "use strict";
     cc._RF.push(module, "d583c4/kZZIEqXq8iOpVxxk", "Player");
     "use strict";
-    var _UnitState = require("Config/UnitState");
+    var _UnitState = require("../Config/UnitState");
     var _UnitState2 = _interopRequireDefault(_UnitState);
-    var _ActionSequences = require("Config/ActionSequences");
+    var _ActionSequences = require("../Config/ActionSequences");
     var _ActionSequences2 = _interopRequireDefault(_ActionSequences);
     function _interopRequireDefault(obj) {
       return obj && obj.__esModule ? obj : {
@@ -440,8 +440,8 @@ window.__require = function e(t, n, r) {
     });
     cc._RF.pop();
   }, {
-    "Config/ActionSequences": void 0,
-    "Config/UnitState": void 0,
+    "../Config/ActionSequences": "ActionSequences",
+    "../Config/UnitState": "UnitState",
     Unit: "Unit"
   } ],
   RoleData: [ function(require, module, exports) {
@@ -803,7 +803,7 @@ window.__require = function e(t, n, r) {
     var _UnitModel = require("../Models/UnitModel");
     var _UnitModel2 = _interopRequireDefault(_UnitModel);
     var _UnitCommand = require("../Commands/UnitCommand");
-    var _RoleData = require("AI/RoleData");
+    var _RoleData = require("../Config/RoleData");
     var _RoleData2 = _interopRequireDefault(_RoleData);
     function _interopRequireDefault(obj) {
       return obj && obj.__esModule ? obj : {
@@ -879,8 +879,8 @@ window.__require = function e(t, n, r) {
     cc._RF.pop();
   }, {
     "../Commands/UnitCommand": "UnitCommand",
-    "../Models/UnitModel": "UnitModel",
-    "AI/RoleData": void 0
+    "../Config/RoleData": "RoleData",
+    "../Models/UnitModel": "UnitModel"
   } ],
   "use_v2.1.x_cc.Action": [ function(require, module, exports) {
     "use strict";
