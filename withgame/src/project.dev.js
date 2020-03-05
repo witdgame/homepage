@@ -30,7 +30,7 @@ window.__require = function e(t, n, r) {
     cc._RF.push(module, "7d120AIrXdAI6e73UBA3Sbt", "AIManager");
     "use strict";
     var _Tools = require("./Tools");
-    var _ActionSequences = require("Config/ActionSequences");
+    var _ActionSequences = require("../Config/ActionSequences");
     var _ActionSequences2 = _interopRequireDefault(_ActionSequences);
     var _UnitState = require("../Config/UnitState");
     var _UnitState2 = _interopRequireDefault(_UnitState);
@@ -88,9 +88,9 @@ window.__require = function e(t, n, r) {
     module.exports = AIManager;
     cc._RF.pop();
   }, {
+    "../Config/ActionSequences": "ActionSequences",
     "../Config/UnitState": "UnitState",
-    "./Tools": "Tools",
-    "Config/ActionSequences": void 0
+    "./Tools": "Tools"
   } ],
   ActionData: [ function(require, module, exports) {
     "use strict";
